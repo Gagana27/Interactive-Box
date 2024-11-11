@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Bundle & Save</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Bundle & Save</h1>
+
+      <div class="box" onclick="toggleBox(1)">
+        <div class="header">
+          <input type="radio" name="bundle" />
+          <div class="text">
+            <span class="pair-text">1 Pair</span>
+            <p class="price">DKK 195.00</p>
+          </div>
+          <span class="discount">50% OFF</span>
+        </div>
+        <div class="options">
+          <div class="heading">
+            <h4>Size</h4>
+            <h4>Color</h4>
+          </div>
+          <div class="option-pair">
+            <div class="box-div">
+              <label for="size1">#1</label>
+              <select id="size1">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+            </div>
+            <div class="option-pair">
+              <label for="color1"></label>
+              <select id="color1">
+                <option>Colour </option>
+                <option>Colour </option>
+              </select>
+            </div>
+          </div>
+          <div class="option-pair">
+            <div class="box-div">
+              <label for="size2">#2</label>
+              <select id="size2">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+            </div>
+            <div class="option-pair">
+              <label for="color2"></label>
+              <select id="color2">
+                <option>Colour </option>
+                <option>Colour </option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box" onclick="toggleBox(2)">
+        <div class="header">
+          <input type="radio" name="bundle" />
+          <div class="text">
+            <span class="pair-text">2 Pair</span>
+            <p class="price">DKK 345.00</p>
+          </div>
+          <span class="discount popular">Most Popular - 40% OFF</span>
+        </div>
+
+        <div class="options">
+          <div class="heading">
+            <h4>Size</h4>
+            <h4>Color</h4>
+          </div>
+          <div class="option-pair">
+            <div class="box-div">
+              <label for="size1">#1</label>
+              <select id="size1">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+            </div>
+            <div class="option-pair">
+              <label for="color1"></label>
+              <select id="color1">
+                <option>Colour </option>
+                <option>Colour </option>
+              </select>
+            </div>
+          </div>
+          <div class="option-pair">
+            <div class="box-div">
+              <label for="size2">#2</label>
+              <select id="size2">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+            </div>
+            <div class="option-pair">
+              <label for="color2"></label>
+              <select id="color2">
+                <option>Colour </option>
+                <option>Colour </option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box" onclick="toggleBox(3)">
+        <div class="header">
+          <input type="radio" name="bundle" />
+          <div class="text">
+            <span class="pair-text">3 Pair</span>
+            <p class="price">DKK 528.00</p>
+          </div>
+          <span class="discount">60% OFF</span>
+        </div>
+        <div class="options">
+          <div class="heading">
+            <h4>Size</h4>
+            <h4>Color</h4>
+          </div>
+          <div class="option-pair">
+            <div class="box-div">
+              <label for="size1">#1</label>
+              <select id="size1">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+            </div>
+            <div class="option-pair">
+              <label for="color1"></label>
+              <select id="color1">
+                <option>Colour </option>
+                <option>Colour </option>
+              </select>
+            </div>
+          </div>
+          <div class="option-pair">
+            <div class="box-div">
+              <label for="size2">#2</label>
+              <select id="size2">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+            </div>
+            <div class="option-pair">
+              <label for="color2"></label>
+              <select id="color2">
+                <option>Colour </option>
+                <option>Colour </option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shipping-info">
+        <p class="free-shipping">Free 2 Day Shipping</p>
+        <p class="total">Total: DKK <span id="total-amount">360.00</span></p>
+      </div>
+      <button class="add-to-cart">+ Add to Cart</button>
+    </div>
+  </body>
+</html>
